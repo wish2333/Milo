@@ -153,7 +153,10 @@ input, textarea {
 
 :focus { outline-color: var(--orange-yellow-crayola); }
 
-html { font-family: var(--ff-poppins); }
+html {
+  font-family: var(--ff-poppins);
+  scroll-behavior: smooth;
+}
 
 body { background: var(--smoky-black); }
 
@@ -208,11 +211,16 @@ article {
 
 .icon-box ion-icon { --ionicon-stroke-width: 35px; }
 
-article { display: none; }
-
-article.active {
+article {
   display: block;
-  animation: fade 0.5s ease backwards;
+  margin-bottom: 30px;
+  scroll-margin-top: 80px;
+}
+
+article:not(:last-child) {
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid var(--jet);
 }
 
 @keyframes fade {
@@ -1710,6 +1718,12 @@ textarea.form-input::-webkit-resizer { display: none; }
     box-shadow: none;
   }
 
+  .navbar.sticky {
+    position: fixed;
+    top: 0;
+    z-index: 10;
+  }
+
   .navbar-list {
     gap: 30px;
     padding: 0 20px;
@@ -1794,7 +1808,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .sidebar, article { width: auto; }
 
-  article { min-height: 100%; }
+  article { min-height: auto; }
 
 
 
@@ -1807,7 +1821,7 @@ textarea.form-input::-webkit-resizer { display: none; }
     margin-inline: auto;
     display: flex;
     justify-content: center;
-    align-items: stretch;
+    align-items: flex-start;
     gap: 25px;
   }
 

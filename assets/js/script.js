@@ -138,22 +138,89 @@ for (let i = 0; i < formInputs.length; i++) {
 
 // page navigation variables
 const navigationLinks = document.querySelectorAll("[data-nav-link]");
-const pages = document.querySelectorAll("[data-page]");
+const sections = document.querySelectorAll("article[id]");
 
-// add event to all nav link
+// Smooth scroll to section on nav link click
 for (let i = 0; i < navigationLinks.length; i++) {
-  navigationLinks[i].addEventListener("click", function () {
+  navigationLinks[i].addEventListener("click", function (event) {
+    event.preventDefault();
 
-    for (let i = 0; i < pages.length; i++) {
-      if (this.innerHTML.toLowerCase() === pages[i].dataset.page) {
-        pages[i].classList.add("active");
-        navigationLinks[i].classList.add("active");
-        window.scrollTo(0, 0);
-      } else {
-        pages[i].classList.remove("active");
-        navigationLinks[i].classList.remove("active");
-      }
+    // Get target section ID from href
+    const targetId = this.getAttribute("href").substring(1);
+    const targetSection = document.getElementById(targetId);
+
+    if (targetSection) {
+      // Scroll to section with smooth behavior
+      targetSection.scrollIntoView({
+        behavior: "smooth",
+        block: "start"
+      });
+
+      // Update active state
+      navigationLinks.forEach(link => link.classList.remove("active"));
+      this.classList.add("active");
     }
-
   });
 }
+
+// Scroll spy: Update active nav based on scroll position
+const observerOptions = {
+  root: null,
+  rootMargin: "-20% 0px -70% 0px", // Trigger when section is in upper part of viewport
+  threshold: 0
+};
+
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      // Remove active from all links
+      navigationLinks.forEach(link => link.classList.remove("active"));
+
+      // Add active to corresponding link
+      const activeLink = document.querySelector(`[href="#${entry.target.id}"]`);
+      if (activeLink) {
+        activeLink.classList.add("active");
+      }
+    }
+  });
+}, observerOptions);
+
+// Observe all sections
+sections.forEach(section => observer.observe(section));
+
+// Navbar sticky behavior for desktop (>= 1024px)
+const navbar = document.querySelector('.navbar');
+const mainContent = document.querySelector('.main-content');
+
+function updateNavbarPosition() {
+  if (window.innerWidth >= 1024 && navbar && mainContent) {
+    const scrollY = window.scrollY;
+
+    if (scrollY >= 60) {
+      // Scroll past 60px: fix navbar to top
+      navbar.classList.add('sticky');
+
+      // Calculate navbar position: align with main-content's right edge
+      const mainContentRect = mainContent.getBoundingClientRect();
+      const navbarRect = navbar.getBoundingClientRect();
+      const navbarLeft = mainContentRect.right - navbarRect.width;
+      navbar.style.left = navbarLeft + 'px';
+      navbar.style.right = 'auto';
+    } else {
+      // Before 60px: navbar scrolls with content
+      navbar.classList.remove('sticky');
+      navbar.style.left = 'auto';
+      navbar.style.right = '0';
+    }
+  } else if (navbar) {
+    // Reset for mobile/tablet
+    navbar.classList.remove('sticky');
+    navbar.style.left = 'auto';
+    navbar.style.right = 'auto';
+  }
+}
+
+// Update on load, scroll, and resize
+window.addEventListener('load', updateNavbarPosition);
+window.addEventListener('scroll', updateNavbarPosition);
+window.addEventListener('resize', updateNavbarPosition);
