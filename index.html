@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -7,23 +7,17 @@
     <meta name="robots" content="noindex, nofollow" />
     <title>Milo的个人作品集</title>
 
-    <!--
-    - favicon
-  -->
+    <!--favicon-->
     <link
       rel="shortcut icon"
       href="./assets/images/logo.ico"
       type="image/x-icon"
     />
 
-    <!--
-    - custom css link
-  -->
+    <!--custom css link-->
     <link rel="stylesheet" href="./assets/css/style.css" />
 
-    <!--
-    - google font link
-  -->
+    <!--google font link-->
     <link rel="preconnect" href="https://static.zeoseven.com" crossorigin />
     <link
       rel="stylesheet"
@@ -32,14 +26,10 @@
   </head>
 
   <body>
-    <!--
-    - #MAIN
-  -->
+    <!--- #MAIN-->
 
     <main>
-      <!--
-      - #SIDEBAR
-    -->
+      <!--#SIDEBAR-->
 
       <aside class="sidebar" data-sidebar>
         <div class="sidebar-info">
@@ -143,35 +133,37 @@
         </div>
       </aside>
 
-      <!--
-      - #main-content
-    -->
+      <!--#main-content-->
 
       <div class="main-content">
-        <!--
-        - #NAVBAR
-      -->
+        <!--#NAVBAR-->
 
         <nav class="navbar">
           <ul class="navbar-list">
             <li class="navbar-item">
-              <a href="#section-about" class="navbar-link active" data-nav-link>关于</a>
+              <a href="#section-about" class="navbar-link active" data-nav-link
+                >关于</a
+              >
             </li>
             <li class="navbar-item">
-              <a href="#section-resume" class="navbar-link" data-nav-link>简历</a>
+              <a href="#section-resume" class="navbar-link" data-nav-link
+                >简历</a
+              >
             </li>
             <li class="navbar-item">
-              <a href="#section-portfolio" class="navbar-link" data-nav-link>作品集</a>
+              <a href="#section-portfolio" class="navbar-link" data-nav-link
+                >作品集</a
+              >
             </li>
             <li class="navbar-item">
-              <a href="#section-links" class="navbar-link" data-nav-link>相关链接</a>
+              <a href="#section-links" class="navbar-link" data-nav-link
+                >相关链接</a
+              >
             </li>
           </ul>
         </nav>
 
-        <!--
-        - #ABOUT
-      -->
+        <!--#ABOUT-->
 
         <article class="about" id="section-about" data-page="关于">
           <header>
@@ -189,12 +181,12 @@
             <p>
               媒体实践中，我在利用Python赋能新媒体内容生产和构建AI应用方面积累了丰富的开发经验。并且可以使用HTML、CSS、JavaScript等前端技术，构建基础的新媒体页面。
             </p>
-            <p>从2025年起，我将在香港中文大学进一步学习社会学，深化我对社会事务、全球化发展、数据分析的认知与实践。</p>
+            <p>
+              从2025年起，我将在香港中文大学进一步学习社会学，深化我对社会事务、全球化发展、数据分析的认知与实践。
+            </p>
           </section>
 
-          <!--
-          - service
-        -->
+          <!--service-->
 
           <section class="service">
             <h3 class="h3 service-title">发展领域</h3>
@@ -580,8 +572,7 @@
                 <p class="timeline-text">
                   ·
                   制作剧本杀CD《四十二年冬》、《恶贯满盈》音频后期、音效设计以及后续宣传物料；<br />
-                  · 
-                  制定后期制作流程手册，提升制作效率和成品质量。
+                  · 制定后期制作流程手册，提升制作效率和成品质量。
                 </p>
               </li>
             </ol>
@@ -602,10 +593,7 @@
                   突破互动边界：大学生群体中新技术创新扩散的大模型社会仿真研究
                 </h4>
 
-                <span
-                  >2024.10 - 2025.5 毕业论文
-                  <br />独立作者</span
-                >
+                <span>2024.10 - 2025.5 毕业论文 <br />独立作者</span>
 
                 <p class="timeline-text">
                   生成式人工智能的扩散模式因大学生群体的特殊性（如社交习惯、信息渠道、学业就业压力）呈现复杂特征。基于TOE框架，本研究通过改良的SocialSimuLLM社会仿真模型，模拟大学校园环境中的技术扩散过程。实验结果显示，社交网络、场景需求与政策响应的三重耦合机制共同塑造了大学生群体的创新扩散模式。研究证实，该群体作为校园与社会的桥梁，在技术采纳中表现出显著的主动性。实际应用层面，将新技术融入课程、项目及公益事业可有效促进其传播与实践应用。
@@ -827,9 +815,7 @@
           </section>
         </article>
 
-        <!--
-        - #PORTFOLIO
-      -->
+        <!--#PORTFOLIO-->
 
         <article class="portfolio" id="section-portfolio" data-page="作品集">
           <header>
@@ -883,16 +869,75 @@
               </ul>
             </div>
 
-            <ul class="project-list">
-              <li
-                class="project-item active"
-                data-filter-item
-                data-category="编程开发"
-              >
-                <a
-                  href="https://github.com/wish2333/VidExtConcat/"
-                  target="_blank"
-                >
+            <!-- 列表视图 (纯文字，在上) -->
+            <ul class="project-list list-view" id="project-list-list">
+              <!-- 学术项目 - 纯文字列表 -->
+              <li class="project-item active" data-filter-item data-category="学术项目">
+                <a href="https://wish2333.github.io/zh/2024/fatcat/" target="_blank">
+                  <div class="project-content">
+                    <h3 class="project-title">性别与经济舆情在时间序列上的主题演化研究</h3>
+                    <p class="project-category">学术项目</p>
+                    <p class="project-description">第30届亚洲媒体信息与传播中心年会 - 以胖猫事件在百度贴吧的舆论表现为研究对象</p>
+                  </div>
+                </a>
+              </li>
+
+              <li class="project-item active" data-filter-item data-category="学术项目">
+                <a href="https://wish2333.github.io/zh/2024/tourism-communication/" target="_blank">
+                  <div class="project-content">
+                    <h3 class="project-title">文旅传播背景下文化广场赋能乡村振兴研究</h3>
+                    <p class="project-category">学术项目</p>
+                    <p class="project-description">第30届亚洲媒体信息与传播中心年会 - 以乡村文化广场为研究对象</p>
+                  </div>
+                </a>
+              </li>
+
+              <li class="project-item active" data-filter-item data-category="学术项目">
+                <a href="https://wish2333.github.io/zh/2023/social-spatial-inequality-within-dingfuzhuang/" target="_blank">
+                  <div class="project-content">
+                    <h3 class="project-title">定福庄社区的社会空间不平等研究</h3>
+                    <p class="project-category">学术项目</p>
+                    <p class="project-description">城市社会学研究 - 探讨城市社区的社会空间差异</p>
+                  </div>
+                </a>
+              </li>
+
+              <li class="project-item active" data-filter-item data-category="学术项目">
+                <a href="https://wish2333.github.io/zh/2023/beijing-public-space/" target="_blank">
+                  <div class="project-content">
+                    <h3 class="project-title">北京城市公共空间与国家形象研究</h3>
+                    <p class="project-category">学术项目</p>
+                    <p class="project-description">城市空间研究 - 分析公共空间与国家形象的关系</p>
+                  </div>
+                </a>
+              </li>
+
+              <li class="project-item active" data-filter-item data-category="学术项目">
+                <a href="https://wish2333.github.io/zh/2023/health-information/" target="_blank">
+                  <div class="project-content">
+                    <h3 class="project-title">北京市大学生的UGC平台健康信息采纳研究</h3>
+                    <p class="project-category">学术项目</p>
+                    <p class="project-description">传播学研究 - 以小红书为例分析健康信息传播</p>
+                  </div>
+                </a>
+              </li>
+
+              <li class="project-item active" data-filter-item data-category="学术项目">
+                <a href="https://wish2333.github.io/zh/2022/fengcun-industry/" target="_blank">
+                  <div class="project-content">
+                    <h3 class="project-title">丰水沃土，"铜"赴振兴——丰村一二三产融合助力乡村振兴的探索</h3>
+                    <p class="project-category">学术项目</p>
+                    <p class="project-description">乡村振兴研究 - 丰村一二三产融合发展模式</p>
+                  </div>
+                </a>
+              </li>
+            </ul>
+
+            <!-- 网格视图 (卡片+图片，在下) -->
+            <ul class="project-list grid-view" id="project-list-grid">
+              <!-- 编程开发 - 卡片+图片 -->
+              <li class="project-item active" data-filter-item data-category="编程开发">
+                <a href="https://github.com/wish2333/VidExtConcat/" target="_blank">
                   <figure class="project-img">
                     <div class="project-item-icon-box">
                       <ion-icon name="eye-outline"></ion-icon>
@@ -900,28 +945,19 @@
 
                     <img
                       src="./assets/images/proj-SSLLM.jpg"
-                      alt="finance"
+                      alt="大模型驱动的社会仿真框架"
                       loading="lazy"
                     />
                   </figure>
 
-                  <h3 class="project-title">
-                    【编程开发】大模型驱动的社会仿真框架
-                  </h3>
+                  <h3 class="project-title">大模型驱动的社会仿真框架</h3>
 
                   <p class="project-category">编程开发</p>
                 </a>
               </li>
 
-              <li
-                class="project-item active"
-                data-filter-item
-                data-category="编程开发"
-              >
-                <a
-                  href="https://github.com/wish2333/VidExtConcat/"
-                  target="_blank"
-                >
+              <li class="project-item active" data-filter-item data-category="编程开发">
+                <a href="https://github.com/wish2333/VidExtConcat/" target="_blank">
                   <figure class="project-img">
                     <div class="project-item-icon-box">
                       <ion-icon name="eye-outline"></ion-icon>
@@ -929,113 +965,20 @@
 
                     <img
                       src="./assets/images/proj-VEC.jpg"
-                      alt="finance"
+                      alt="视频批处理软件"
                       loading="lazy"
                     />
                   </figure>
 
-                  <h3 class="project-title">【编程开发】视频批处理软件</h3>
+                  <h3 class="project-title">视频批处理软件</h3>
 
                   <p class="project-category">编程开发</p>
                 </a>
               </li>
 
-              <li
-                class="project-item active"
-                data-filter-item
-                data-category="web development"
-              >
-                <a
-                  href="https://wish2333.github.io/zh/2024/fatcat/"
-                  target="_blank"
-                >
-                  <figure class="project-img">
-                    <div class="project-item-icon-box">
-                      <ion-icon name="eye-outline"></ion-icon>
-                    </div>
-
-                    <img
-                      src="./assets/images/proj-FatCat.jpg"
-                      alt="orizon"
-                      loading="lazy"
-                    />
-                  </figure>
-
-                  <h3 class="project-title">
-                    【会议论文】性别与经济舆情在时间序列上的主题演化研究
-                  </h3>
-
-                  <p class="project-category">学术项目</p>
-                </a>
-              </li>
-
-              <li
-                class="project-item active"
-                data-filter-item
-                data-category="学术项目"
-              >
-                <a
-                  href="https://wish2333.github.io/zh/2024/tourism-communication/"
-                  target="_blank"
-                >
-                  <figure class="project-img">
-                    <div class="project-item-icon-box">
-                      <ion-icon name="eye-outline"></ion-icon>
-                    </div>
-
-                    <img
-                      src="./assets/images/proj-CulturalFengcun.jpg"
-                      alt="fundo"
-                      loading="lazy"
-                    />
-                  </figure>
-
-                  <h3 class="project-title">
-                    【会议论文】文旅传播背景下文化广场赋能乡村振兴研究
-                  </h3>
-
-                  <p class="project-category">学术项目</p>
-                </a>
-              </li>
-
-              <li
-                class="project-item active"
-                data-filter-item
-                data-category="学术项目"
-              >
-                <a
-                  href="https://wish2333.github.io/zh/2023/social-spatial-inequality-within-dingfuzhuang/"
-                  target="_blank"
-                >
-                  <figure class="project-img">
-                    <div class="project-item-icon-box">
-                      <ion-icon name="eye-outline"></ion-icon>
-                    </div>
-
-                    <img
-                      src="./assets/images/proj-Dingfuzhuang.jpg"
-                      alt="brawlhalla"
-                      loading="lazy"
-                    />
-                  </figure>
-
-                  <h3 class="project-title">
-                    【学术研究】定福庄社区的社会空间不平等研究
-                  </h3>
-
-                  <p class="project-category">学术项目</p>
-                </a>
-              </li>
-
-              <li
-                class="project-item active"
-                data-filter-item
-                data-category="后期制作"
-              >
-                <a
-                  href="https://wish2333.github.io/zh/2023/webclass-autocut-free/"
-                  target="_blank"
-                >
+              <!-- 后期制作 - 卡片+图片 -->
+              <li class="project-item active" data-filter-item data-category="后期制作">
+                <a href="https://wish2333.github.io/zh/2023/webclass-autocut-free/" target="_blank">
                   <figure class="project-img">
                     <div class="project-item-icon-box">
                       <ion-icon name="eye-outline"></ion-icon>
@@ -1043,112 +986,21 @@
 
                     <img
                       src="./assets/images/proj-WebClass.jpg"
-                      alt="dsm."
+                      alt="网课剪辑：自动化流程基于免费软件"
                       loading="lazy"
                     />
                   </figure>
 
-                  <h3 class="project-title">
-                    【后期制作】网课剪辑：自动化流程基于免费软件
-                  </h3>
+                  <h3 class="project-title">网课剪辑：自动化流程基于免费软件</h3>
 
                   <p class="project-category">后期制作</p>
-                </a>
-              </li>
-
-              <li
-                class="project-item active"
-                data-filter-item
-                data-category="学术项目"
-              >
-                <a
-                  href="https://wish2333.github.io/zh/2023/beijing-public-space/"
-                  target="_blank"
-                >
-                  <figure class="project-img">
-                    <div class="project-item-icon-box">
-                      <ion-icon name="eye-outline"></ion-icon>
-                    </div>
-
-                    <img
-                      src="./assets/images/proj-BJCity.jpg"
-                      alt="metaspark"
-                      loading="lazy"
-                    />
-                  </figure>
-
-                  <h3 class="project-title">
-                    【学术研究】北京城市公共空间与国家形象研究
-                  </h3>
-
-                  <p class="project-category">学术项目</p>
-                </a>
-              </li>
-
-              <li
-                class="project-item active"
-                data-filter-item
-                data-category="学术项目"
-              >
-                <a
-                  href="https://wish2333.github.io/zh/2023/health-information/"
-                  target="_blank"
-                >
-                  <figure class="project-img">
-                    <div class="project-item-icon-box">
-                      <ion-icon name="eye-outline"></ion-icon>
-                    </div>
-
-                    <img
-                      src="./assets/images/proj-RedHealth.jpg"
-                      alt="summary"
-                      loading="lazy"
-                    />
-                  </figure>
-
-                  <h3 class="project-title">
-                    【学术研究】北京市大学生的UGC平台健康信息采纳研究——以小红书为例
-                  </h3>
-
-                  <p class="project-category">学术项目</p>
-                </a>
-              </li>
-
-              <li
-                class="project-item active"
-                data-filter-item
-                data-category="学术项目"
-              >
-                <a
-                  href="https://wish2333.github.io/zh/2022/fengcun-industry/"
-                  target="_blank"
-                >
-                  <figure class="project-img">
-                    <div class="project-item-icon-box">
-                      <ion-icon name="eye-outline"></ion-icon>
-                    </div>
-
-                    <img
-                      src="./assets/images/proj-Fengcun.jpg"
-                      alt="task manager"
-                      loading="lazy"
-                    />
-                  </figure>
-
-                  <h3 class="project-title">
-                    【学术研究】丰水沃土，“铜”赴振兴——丰村一二三产融合助力乡村振兴的探索
-                  </h3>
-
-                  <p class="project-category">学术项目</p>
                 </a>
               </li>
             </ul>
           </section>
         </article>
 
-        <!--
-        - #BLOG
-      -->
+        <!--#BLOG-->
 
         <article class="blog" id="section-links" data-page="相关链接">
           <header>
@@ -1173,7 +1025,7 @@
 
                       <span class="dot"></span>
 
-                      <time datetime="2022-02-23">wish_2333</time>
+                      <time datetime="2026-01-17">wish_2333</time>
                     </div>
 
                     <h3 class="h3 blog-item-title">哔哩哔哩个人空间</h3>
@@ -1184,10 +1036,7 @@
               </li>
 
               <li class="blog-post-item">
-                <a
-                  href="https://github.com/wish2333/VideoExtractAndConcat"
-                  target="_blank"
-                >
+                <a href="https://github.com/wish2333" target="_blank">
                   <figure class="blog-banner-box">
                     <img
                       src="./assets/images/github-homepage.jpg"
@@ -1202,13 +1051,13 @@
 
                       <span class="dot"></span>
 
-                      <time datetime="2022-02-23">wish2333</time>
+                      <time datetime="2026-01-17">wish2333</time>
                     </div>
 
                     <h3 class="h3 blog-item-title">Github个人仓库</h3>
 
                     <p class="blog-text">
-                      已开发VidExtConcat、SocialSimuLLM项目
+                      已开发VidExtConcat、SocialSimuLLM等项目
                     </p>
                   </div>
                 </a>
