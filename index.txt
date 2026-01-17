@@ -2,239 +2,274 @@ vCard - Personal Portfolio
 
 # sidebar
 
-alt = Richard hanrick
-Richard hanrick
-Web developer
+alt = Wish
+Milo Felix
+社会学/传播学/AI应用爱好者/中共党员
 
-Show Contacts
+显示联系方式
 
-Email
-richard@example.com
+邮箱
+wishtxfs@163.com
 
-Phone
-+1 (213) 352-2795
+手机
++86 18977528003
 
-Birthday
-June 23, 1982
+生日
+十月 24, 2002
 
-Location
-Sacramento, California, USA
+地址
+北流市, 广西壮族自治区, 中国
 
 # navbar
 
-About
-Resume
-Portfolio
-Blog
-Contact
+关于
+简历
+作品集
+相关链接
 
 # about
 
-About me
+关于我
 
-I'm Creative Director and UI/UX Designer from Sydney, Australia, working in web development and print media. I enjoy turning complex problems into simple, beautiful and intuitive designs.
+你好，我是Milo Felix。
 
-My job is to build your website so that it is functional and user-friendly but at the same time attractive. Moreover, I add personal touch to your product and make sure that is eye-catching and easy to use. My aim is to bring across your message and identity in the most creative way. I created web design for many famous brand companies.
+在2021-2025年，作为一名中国传媒大学新闻学院学生，我专注于将社会服务的满怀热忱、传播学专业的理论知识与新媒体的生产实践相结合，投身于社会科学的学习研究中。
+
+在本科阶段，我对空间社会学与网络舆情具有较高兴趣，并据此进行了相应的社会调查和科学研究。我充分实践了量化与质化研究范式，分别使用实地调研与深度访谈、机器学习与时间序列分析等具体方法，具备了使用Python进行数据可视化、文本分析、文本聚类、文本分类、文本摘要等任务的能力。两篇相关论文被第30届媒体信息与传播中心年会收录并作报告。本科毕业论文"突破互动边界：大学生群体中技术创新扩散的大模型社会仿真研究"获得优秀成绩。
+
+媒体实践中，我在利用Python赋能新媒体内容生产和构建AI应用方面积累了丰富的开发经验。并且可以使用HTML、CSS、JavaScript等前端技术，构建基础的新媒体页面。
+
+从2025年起，我将在香港中文大学进一步学习社会学，深化我对社会事务、全球化发展、数据分析的认知与实践。
 
 
 ## service
 
-What i'm doing
+发展领域
 
 alt = design icon
-Web design
-The most modern and high-quality design made at a professional level.
+社会科学研究
+社会科学为我们提供了一个宝贵的视角，通过它我们可以探索当今复杂的社会问题，促使我们超越表面，去揭示社会形成和发展的深层结构、规范和权力动态。
 
 alt = Web development icon
-Web development
-High-quality development of sites at the professional level.
+Python应用开发
+代码的价值在于自动化繁琐的任务和从数据中提取有价值的信息。Python作为容易上手的编程语言，能够方便地进行自动化操作或是提供数据洞察。
 
 alt = mobile app icon
-Mobile apps
-Professional development of applications for iOS and Android.
+AI应用开发
+AI应用开发对我来说不仅仅是编写代码，更是构建能够真正服务于用户的智能解决方案。AI的真正力量在于赋能于人，而我热衷于成为这一过程的推动者。
 
 alt = camera icon
-Photography
-I make high-quality photos of any category at a professional level.
-
-
-## testimonials
-
-Testimonials
-
-alt = Daniel lewis
-Daniel lewis
-Richard was hired to create a corporate identity. We were very pleased with the work done. She has a lot of experience and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt consectetur adipiscing elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
-
-alt = Jessica miller
-Jessica miller
-Richard was hired to create a corporate identity. We were very pleased with the work done. She has a lot of experience and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt consectetur adipiscing elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
-
-alt = Emily evans
-Emily evans
-Richard was hired to create a corporate identity. We were very pleased with the work done. She has a lot of experience and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt consectetur adipiscing elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
-
-alt = Henry william
-Henry william
-Richard was hired to create a corporate identity. We were very pleased with the work done. She has a lot of experience and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt consectetur adipiscing elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
-
-
-## clients
-
-Clients
-
-alt = client logo
-
-
+新媒体制作
+声音是传递情感和信息的重要媒介，一个精心制作的音频可以极大地提升内容的质量和感染力。通过混音、降噪、声音设计，能够创作出具有沉浸感的声音效果。
 
 # resume
 
-Resume
+简历
 
-Education
+教育经历
 
-University school of the arts
-2007 — 2008
-Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et quas molestias exceptur.
+香港中文大学（社会学 文学硕士）
+2025fall 在读
+主干课程：Sociology and Modern Life；Methods of Social Inquiry；Theoretical Perspectives in Sociology
+选修课程：Globalization: Challenges and Responses；Issues in Education and Society；Statistics for Social Research；Decoding Hong Kong Society；Crime and Criminal Justice
 
-New york academy of art
-2006 — 2007
-Ratione voluptatem sequi nesciunt, facere quisquams facere menda ossimus, omnis voluptas assumenda est omnis..
+中国传媒大学（传播学 文学学士）
+2021.9 - 2025.7 GPA: 3.86/4 (93/100)
+毕业阶段获校毕业生三好学生、优秀毕业论文；2023-2024学年获校三好学生、校级三等奖学金、学术科研竞赛单项奖学金
+主干课程：传播学概论、基础统计学、传播研究方法、传播效果实证研究、舆论学、传播政治经济学、实践：社会调查、新媒体理论与实践、新媒体写作、传播心理学、全球文化传播
+选修课程：融媒体和大数据中的统计思维、区块链与创新思维、大数据与人工智能、理解城市、影视声音艺术、视听艺术传播、视频摄像、新片解读
 
-High school of art and design
-2002 — 2004
-Duis aute irure dolor in reprehenderit in voluptate, quila voluptas mag odit aut fugit, sed consequuntur magni dolores eos.
+实习经历
 
-Experience
+深圳市远管理咨询有限公司
+2025.10 - 2025.12
+咨询培训实习生
+撰写咨询规划：依据客户网公司的培训需求，负责提炼核心要点并制定《培训资源开发清单》，为后续定制化培训资源的开发奠定明确方向与实施标准。
+统筹培训制作：基于开发清单，主导并协调涵盖37门安规解读视频、26门事故警示视频、12门管理人员长图文共计75项多媒体教学资源的打样、制作与最终交付，在一个月内实现了所有资源的高质量产出，高效保障了客户多个培训项目的及时上线与顺利运行。
 
-Creative director
-2015 — Present
-Nemo enim ipsam voluptatem blanditiis praesentium voluptum delenit atque corrupti, quos dolores et qvuas molestias exceptur.
+北京人民在线网络有限公司
+2024.10 - 2025.1
+公司企业咨询部实习生
+为国央企客户提供舆情监测报告，并为项目微信公众号撰写舆情热点分析报告；负责通讯、食品和医药行业舆情的数据处理工作。
 
-Art director
-2013 — 2015
-Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et quas molestias exceptur.
+北京京师勤思教育科技有限公司
+2023.10 - 2024.10
+销售部实习生
+探索智能化服务：用Coze搭建以人工智能技术为依托的智能客服、辅导老师、口语老师方案，降本增效，提升用户承接效率和质量；
+制作与维护官网网站：通过Linux服务器管理维护网站，利用HTML、CSS、JavaScript等网页技术制作官网和智能化服务的前端界面，为用户了解和使用业务提供窗口；
+开发效率软件：Python和FFmpeg作为后端，Pyside6作为前端，开发剪辑效率软件，以优化制作流程，视频产能翻倍。
 
-Web designer
-2010 — 2013
-Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et quas molestias exceptur.
+蚌埠新上禾风文化传媒有限公司
+2023.6 - 2023.8
+后期部顾问
+制作剧本杀CD《四十二年冬》、《恶贯满盈》音频后期、音效设计以及后续宣传物料；制定后期制作流程手册，提升制作效率和成品质量。
 
-My skills
+学术项目
 
-Web design
+突破互动边界：大学生群体中新技术创新扩散的大模型社会仿真研究
+2024.10 - 2025.5 毕业论文
+独立作者
+生成式人工智能的扩散模式因大学生群体的特殊性（如社交习惯、信息渠道、学业就业压力）呈现复杂特征。基于TOE框架，本研究通过改良的SocialSimuLLM社会仿真模型，模拟大学校园环境中的技术扩散过程。实验结果显示，社交网络、场景需求与政策响应的三重耦合机制共同塑造了大学生群体的创新扩散模式。研究证实，该群体作为校园与社会的桥梁，在技术采纳中表现出显著的主动性。实际应用层面，将新技术融入课程、项目及公益事业可有效促进其传播与实践应用。
+
+性别与经济舆情在时间序列上的主题演化研究（发表）
+2024.6 - 2024.9 第30届亚洲媒体信息与传播中心年会
+独立作者
+进行定量研究，独立撰写论文并做报告。以胖猫事件在百度贴吧的舆论表现为研究对象，通过机器学习和时间序列等计算机技术分析非结构化的文本数据。揭示百度贴吧虽然因男性主导而存在性别不平等的问题，但是也孕育了讨论政治与经济问题的土壤。研究为社交媒体影响下的网络舆情引导和干预提供实证检验和数据参考。
+
+在文化旅游传播背景下探索文化广场赋能乡村振兴的实践路径（发表）
+2022.6 - 2024.9 第30届亚洲媒体信息与传播中心年会
+独立作者
+进行定性研究，独立撰写论文并做报告。前期以乡村一二三产融合发展为切入点，在广西丰村进行历时两年的实地考察以及深度访谈。发现建设中存在权力表征和其不满足文旅传播需要的问题。研究提出，乡村建设的机遇主要来源于村干部的魄力和乡贤企业的支持，但是实际开发中在国家政策适应性、县域合作积极性、资金分配合理性等方面存在制约。在这一背景下，研究以乡村文化广场为研究对象，在"使用-体验"的空间社会学视角下，提出凝聚了乡土文化、村民游客可直接体验并能唤起集体记忆的文化广场，在文旅传播和乡村振兴的实践中具有重要意义。
+
+中国文化meme在海外传播情况研究
+2024.6 - 2024.8
+实验员（指导老师：崔蕴芳）
+创作meme表情包、视频。根据实验经验总结传播策略，并为后续研究制定投放需求、内容创作方向和具体内容建议。
+
+北京定福庄社区社会不平等现象研究
+2023.10 - 2023.12
+项目负责人（指导老师：文春英）
+进行定性研究，参与实验设计、文献综述撰写与实地考察。通过城市社会学的视角，采用案例分析方法并进行实地调研。着重分析这些差异对居民生活和社会互动的影响。提出改善社会公平和可持续发展的措施。
+
+北京市大学生的UGC平台健康信息采纳研究
+2023.6 - 2023.7
+文献综述与数据分析员（指导老师：崔蕴芳）
+进行定量研究，参与文献综述撰写与数据分析。着眼当下代表性互联网新媒体平台小红书，通过问卷收集数据并进行相关分析和回归分析。揭示大学生用户信息感知有用性主要来源于信息质量。研究为社交媒体中健康信息的有效传播提供了方向。
+
+课外活动
+
+基于generative-agent的大模型社会仿真框架（开源）
+2025.2 - 2025.3
+独立开发者 毕业作品
+该项目旨在模拟社交互动和智能体行为，为研究和探索各种社交场景提供可定制的框架。通过模拟，用户可以观察代理之间的交互，分析行为模式，并更深入地了解社会动态。
+
+基于FFmpeg和Python开发的视频批处理软件（开源）
+2024.5 - 2024.6
+独立开发者 软件著作权（登记号：2024SR1156928）
+该项目旨在简化繁杂的视频编辑流程，赋能每个人都能快速创作出高质量的视频内容。提供素材编码转码、滤镜特效、智能剪辑等功能。
+
+中国传媒大学ECHO配音社
+2021.10-2023.9
+后期、配音、编导
+配音社原创舞台剧、有声剧和广播剧等项目中负责编剧、配音、录音和后期制作。
+
+中国传媒大学社团联合会
+2021.10 - 2023.5
+宣传部视频组委员
+2022年、2023年"社彩秋韵"社团文化展演：宣传视频拍摄、剪辑，现场转播；2022年"青春之火、点点燎原"云综艺：视频剪辑、包装制作。
+
+中国传媒大学广播台 Radio CUC
+2021.9 - 2022.6
+《阳光不休假》栏目记者
+参与电台广播稿采写、微信推送稿编辑撰写、广播剧剧本创作、录音、音频后期制作。
+
+技能专长
+
+数据分析：Excel｜SPSS｜Tableau｜SQL｜Jamovi｜
 80%
-Graphic design
-70%
-Branding
-90%
-WordPress
+
+视频后期：Premier｜After Effect｜剪映专业版
 50%
 
+音频后期：Audition｜Studio One｜Reaper｜
+90%
+
+编程开发：HTML｜CSS｜JavaScript｜Python｜Linux｜
+45%
+
+
+
+语言情况
+
+粤语
+勾漏片区粤语，母语级别
+
+英语
+雅思6.5，六级533分
 
 
 # portfolio
 
-Portfolio
+作品集
 
 All
-Web design
-Applications
-Web development
+学术项目
+编程开发
+后期制作
 
-Select category
+选择分类
 All
-Web design
-Applications
-Web development
+学术项目
+编程开发
+后期制作
 
-alt = finance
-Finance
-Web development
+学术项目
 
-alt = orizon
-Orizon
-Web development
+超越退却与适应：全球化时代民族国家转型的盲点
+学术项目
+政治经济学
 
-alt = fundo
-Fundo
-Web design
+批判技术：一个掩盖社会权力关系的意识形态神话
+学术项目
+政治经济学
 
-alt = brawlhalla
-Brawlhalla
-Applications
+重访阶级：全球化下的不稳定群体与“新阶级”迷思
+学术项目
+政治经济学
 
-alt = dsm.
-DSM.
-Web design
+性别与经济舆情在时间序列上的主题演化研究
+学术项目
+第30届亚洲媒体信息与传播中心年会
 
-alt = metaspark
-MetaSpark
-Web design
+文旅传播背景下文化广场赋能乡村振兴研究
+学术项目
+第30届亚洲媒体信息与传播中心年会
 
-alt = summary
-Summary
-Web development
+定福庄社区的社会空间不平等研究
+学术项目
+城市社会学研究
 
-alt = task manager
-Task Manager
-Applications
+北京城市公共空间与国家形象研究
+学术项目
+城市空间研究
 
-alt = arrival
-Arrival
-Web development
+北京市大学生的UGC平台健康信息采纳研究
+学术项目
+传播学研究
 
+丰水沃土，"铜"赴振兴——丰村一二三产融合助力乡村振兴的探索
+学术项目
+乡村振兴研究
+
+编程开发
+
+alt = SSLLM
+大模型驱动的社会仿真框架
+编程开发
+
+alt = VEC
+视频批处理软件
+编程开发
+
+后期制作
+
+alt = WebClass
+网课剪辑：自动化流程基于免费软件
+后期制作
 
 
 # blog
 
-Blog
+相关链接
 
-alt = Design conferences in 2022
-Design
-Fab 23, 2022
-Design conferences in 2022
-Veritatis et quasi architecto beatae vitae dicta sunt, explicabo.
+alt = bilibili homepage
+哔哩哔哩
+wish_2333
+哔哩哔哩个人空间
+总播放量10万+
 
-alt = Best fonts every designer
-Design
-Fab 23, 2022
-Best fonts every designer
-Sed ut perspiciatis, nam libero tempore, cum soluta nobis est eligendi.
-
-alt = Design digest #80
-Design
-Fab 23, 2022
-Design digest #80
-Excepteur sint occaecat cupidatat no proident, quis nostrum exercitationem ullam corporis suscipit.
-
-alt = UI interactions of the week
-Design
-Fab 23, 2022
-UI interactions of the week
-Enim ad minim veniam, consectetur adipiscing elit, quis nostrud exercitation ullamco laboris nisi.
-
-alt = The forgotten art of spacing
-Design
-Fab 23, 2022
-The Forgotten Art Of Spacing
-Maxime placeat, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-alt = Design digest #79
-Design
-Fab 23, 2022
-Design Digest #79
-Optio cumque nihil impedit uo minus quod maxime placeat, velit esse cillum.
-
-
-
-# contact
-
-Contact
-
-Contact Form
-
-Full name
-Email address
-Your Message
-
-Send Message
+alt = github homepage
+Github
+wish2333
+Github个人仓库
+已开发VidExtConcat、SocialSimuLLM等项目
