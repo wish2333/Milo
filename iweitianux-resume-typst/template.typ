@@ -20,11 +20,11 @@
 
 // 主体
 #let resume(
-  size: 10pt,
+  size: 9.5pt,
   theme-color: rgb("#26267d"),
   margin: (
     top: 1.5cm,
-    bottom: 2cm,
+    bottom: 1.5cm,
     left: 2cm,
     right: 2cm,
   ),
@@ -43,13 +43,13 @@
   set text(font: (font.main, font.cjk), size: size, lang: "zh")
 
   // 标题及小标题样式
-  show heading: set text(theme-color, 1.1em)
+  show heading: set text(theme-color, 1em)
 
   // 二级标题下加一条横线
   show heading.where(level: 2): it => stack(
-    v(0.3em),
+    v(0.2em),
     it,
-    v(0.6em),
+    v(0.3em),
     line(length: 100%, stroke: 0.05em + theme-color),
     v(0.1em),
   )
@@ -58,16 +58,16 @@
   // set list(indent: 1em, body-indent: 0.8em, marker: faAngleRight)
   // 上面的语句无法精确控制图标位置, 因此改用了下列方法重写 list
   show list: it => stack(
-    spacing: 0.4em,
+    spacing: 1em,
     ..it.children.map(item => {
       grid(
         columns: (2em, 1fr),
         gutter: 0em,
         box({
-          h(0.75em)
+          h(0.5em)
           fa-angle-right
         }),
-        pad(top: 0.15em, item.body),
+        pad(top: 0em, item.body),
       )
     }),
   )
@@ -100,7 +100,7 @@
 
 
 // 带竖线的侧边栏
-#let sidebar(side, content, with-line: true, side-width: 12%) = layout(size => {
+#let sidebar(side, content, with-line: true, side-width: 8%) = layout(size => {
   let side-size = measure(width: size.width, height: size.height, side)
   let content-size = measure(width: size.width * (100% - side-width), height: size.height, content)
   let height = calc.max(side-size.height, content-size.height) + 0.5em
@@ -127,7 +127,7 @@
   color: black,
   ..infos,
 ) = {
-  set text(font: (font.mono, font.cjk), fill: color)
+  set text(font: (font.cjk), fill: color)
   set par(justify: false)
   infos
     .pos()
@@ -148,8 +148,8 @@
         }
       })
     })
-    .join(h(0.5em) + "·" + h(0.5em))
-  v(0.5em)
+    .join(h(0.8em) + "·" + h(0.8em))
+  v(-0.2em)
 }
 
 
@@ -173,7 +173,7 @@
   desc,
   endnote,
 ) = {
-  v(0.25em)
+  v(0.2em)
   grid(
     columns: (50%, 1fr, auto),
     gutter: 0em,
