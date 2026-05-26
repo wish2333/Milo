@@ -146,13 +146,13 @@
               >
             </li>
             <li class="navbar-item">
-              <a href="#section-resume" class="navbar-link" data-nav-link
-                >简历</a
+              <a href="#section-portfolio" class="navbar-link" data-nav-link
+                >作品集</a
               >
             </li>
             <li class="navbar-item">
-              <a href="#section-portfolio" class="navbar-link" data-nav-link
-                >作品集</a
+              <a href="#section-resume" class="navbar-link" data-nav-link
+                >详细简历</a
               >
             </li>
             <li class="navbar-item">
@@ -182,7 +182,7 @@
               媒体实践中，我在利用Python赋能新媒体内容生产和构建AI应用方面积累了丰富的开发经验。并且可以使用HTML、CSS、JavaScript等前端技术，构建基础的新媒体页面。
             </p>
             <p>
-              从2025年起，我将在香港中文大学进一步学习社会学，深化我对社会事务、全球化发展、数据分析的认知与实践。
+              从2025年至2026年，我在香港中文大学进一步学习社会学，深化我对社会事务、全球化发展、数据分析的认知与实践。同时，我也在积极探索社会科学与AI技术的交叉应用，致力于将大模型等AI工具融入日常学习工作和社会科学研究中，以期提供创新的解决方案。
             </p>
           </section>
 
@@ -461,6 +461,307 @@
         </section> -->
         </article>
 
+        <!--#PORTFOLIO-->
+
+        <article class="portfolio" id="section-portfolio" data-page="作品集">
+          <header>
+            <h2 class="h2 article-title">作品集</h2>
+          </header>
+
+          <section class="projects">
+            <ul class="filter-list">
+              <li class="filter-item">
+                <button class="active" data-filter-btn>All</button>
+              </li>
+
+              <li class="filter-item">
+                <button data-filter-btn>学术项目</button>
+              </li>
+
+              <li class="filter-item">
+                <button data-filter-btn>编程开发</button>
+              </li>
+
+              <li class="filter-item">
+                <button data-filter-btn>后期制作</button>
+              </li>
+            </ul>
+
+            <div class="filter-select-box">
+              <button class="filter-select" data-select>
+                <div class="select-value" data-selecct-value>选择分类</div>
+
+                <div class="select-icon">
+                  <ion-icon name="chevron-down"></ion-icon>
+                </div>
+              </button>
+
+              <ul class="select-list">
+                <li class="select-item">
+                  <button data-select-item>All</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>学术项目</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>编程开发</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>后期制作</button>
+                </li>
+              </ul>
+            </div>
+
+            <!-- 网格视图 (卡片+图片，在下) -->
+            <ul class="project-list grid-view" id="project-list-grid">
+              <!-- Milo-Cut -->
+              <li class="project-item active" data-filter-item data-category="编程开发">
+                <a href="https://github.com/wish2333/Milo-Cut" target="_blank">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+                    <img src="./assets/images/proj-Milo-Cut.png" alt="Milo-Cut" loading="lazy" />
+                  </figure>
+                  <div class="project-info">
+                    <h3 class="project-title">Milo-Cut</h3>
+                    <p class="project-tagline">"字幕即剪辑" -- AI驱动的口播视频粗剪预处理器</p>
+                    <p class="project-meta">独立开发，PyWebVue，2026.05</p>
+                    <div class="project-tags">
+                      <span class="project-tag">Python</span>
+                      <span class="project-tag">Vue 3</span>
+                      <span class="project-tag">FFmpeg</span>
+                    </div>
+                  </div>
+                </a>
+              </li>
+
+              <!-- SherpaNote -->
+              <li class="project-item active" data-filter-item data-category="编程开发">
+                <a href="https://github.com/wish2333/sherpanote" target="_blank">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+                    <img src="./assets/images/proj-SherpaNote.png" alt="SherpaNote" loading="lazy" />
+                  </figure>
+                  <div class="project-info">
+                    <h3 class="project-title">SherpaNote</h3>
+                    <p class="project-tagline">本地优先的AI学习助手，语音转录、文档提取、AI整理一站式完成</p>
+                    <p class="project-meta">独立开发，PyWebVue，2026.04</p>
+                    <div class="project-tags">
+                      <span class="project-tag">Python</span>
+                      <span class="project-tag">Vue 3</span>
+                      <span class="project-tag">sherpa-onnx</span>
+                    </div>
+                  </div>
+                </a>
+              </li>
+
+              <!-- FF-Intelligent-Neo -->
+              <li class="project-item active" data-filter-item data-category="编程开发">
+                <a href="https://github.com/wish2333/ff-intelligent-neo" target="_blank">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+                    <img src="./assets/images/proj-FF-Intelligent-Neo.png" alt="FF Intelligent Neo" loading="lazy" />
+                  </figure>
+                  <div class="project-info">
+                    <h3 class="project-title">FF Intelligent Neo</h3>
+                    <p class="project-tagline">面向非技术用户的FFmpeg批量视频处理桌面工具</p>
+                    <p class="project-meta">独立开发，PyWebVue，2026.03</p>
+                    <div class="project-tags">
+                      <span class="project-tag">Python</span>
+                      <span class="project-tag">Vue 3</span>
+                      <span class="project-tag">FFmpeg</span>
+                    </div>
+                  </div>
+                </a>
+              </li>
+
+              <!-- PyWebVue -->
+              <li class="project-item active" data-filter-item data-category="编程开发">
+                <a href="https://github.com/wish2333/PyWebVue" target="_blank">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+                    <img src="./assets/images/proj-PyWebVue.png" alt="PyWebVue" loading="lazy" />
+                  </figure>
+                  <div class="project-info">
+                    <h3 class="project-title">PyWebVue</h3>
+                    <p class="project-tagline">极简Python+Vue桌面应用桥接框架，克隆即开发</p>
+                    <p class="project-meta">独立开发，Python/Vue，2026.03</p>
+                    <div class="project-tags">
+                      <span class="project-tag">Python</span>
+                      <span class="project-tag">Vue 3</span>
+                      <span class="project-tag">pywebview</span>
+                    </div>
+                  </div>
+                </a>
+              </li>
+
+              <!-- SocialSimuLLM -->
+              <li class="project-item active" data-filter-item data-category="编程开发">
+                <a href="https://github.com/wish2333/SocialSimuLLM" target="_blank">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+                    <img src="./assets/images/proj-SSLLM.jpg" alt="SocialSimuLLM" loading="lazy" />
+                  </figure>
+                  <div class="project-info">
+                    <h3 class="project-title">SocialSimuLLM</h3>
+                    <p class="project-tagline">大模型驱动的多智能体社会仿真实验框架</p>
+                    <p class="project-meta">独立开发，Python，2024.12</p>
+                    <div class="project-tags">
+                      <span class="project-tag">Python</span>
+                      <span class="project-tag">OpenAI API</span>
+                      <span class="project-tag">NetworkX</span>
+                    </div>
+                  </div>
+                </a>
+              </li>
+
+              <!-- 后期制作 - 卡片+图片 -->
+              <li class="project-item active" data-filter-item data-category="后期制作">
+                <a href="https://wish2333.github.io/zh/2023/webclass-autocut-free/" target="_blank">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+                    <img src="./assets/images/proj-WebClass.jpg" alt="网课剪辑：自动化流程基于免费软件" loading="lazy" />
+                  </figure>
+                  <div class="project-info">
+                    <h3 class="project-title">网课剪辑：自动化流程基于免费软件</h3>
+                    <p class="project-category">后期制作</p>
+                  </div>
+                </a>
+              </li>
+            </ul>
+
+            <div class="portfolio-section-divider"></div>
+
+            <!-- 列表视图 (纯文字，在上) -->
+            <ul class="project-list list-view" id="project-list-list">
+              <!-- 学术项目 - 纯文字列表 -->
+              <li class="project-item active" data-filter-item data-category="学术项目">
+                <a href="assets/pdf/20251219-Globalization-Essay2-Nation State.pdf" target="_blank">
+                  <div class="project-content">
+                    <h3 class="project-title">超越退却与适应：全球化时代民族国家转型的盲点</h3>
+                    <p class="project-category">学术项目</p>
+                    <p class="project-description">政治经济学</p>
+                  </div>
+                </a>
+              </li>
+
+              <li class="project-item active" data-filter-item data-category="学术项目">
+                <a href="assets/pdf/20251208-Modern Life-Final Paper-Critiquing Technology.pdf" target="_blank">
+                  <div class="project-content">
+                    <h3 class="project-title">批判技术：一个掩盖社会权力关系的意识形态神话</h3>
+                    <p class="project-category">学术项目</p>
+                    <p class="project-description">政治经济学</p>
+                  </div>
+                </a>
+              </li>
+
+              <li class="project-item active" data-filter-item data-category="学术项目">
+                <a href="assets/pdf/20251102-Globalization-Essay1-Revisiting Class.pdf" target="_blank">
+                  <div class="project-content">
+                    <h3 class="project-title">重访阶级：全球化下的不稳定群体与“新阶级”迷思</h3>
+                    <p class="project-category">学术项目</p>
+                    <p class="project-description">政治经济学</p>
+                  </div>
+                </a>
+              </li>
+
+              <li class="project-item active" data-filter-item data-category="学术项目">
+                <a href="assets/pdf/20250618-毕业论文-突破互动边界：大学生群体中新技术创新扩散的大模型社会仿真研究.pdf" target="_blank">
+                  <div class="project-content">
+                    <h3 class="project-title">突破互动边界：大学生群体中新技术创新扩散的大模型社会仿真研究</h3>
+                    <p class="project-category">学术项目</p>
+                    <p class="project-description">毕业论文</p>
+                  </div>
+                </a>
+              </li>
+
+              <li class="project-item active" data-filter-item data-category="学术项目">
+                <a href="assets/pdf/20240601-舆论学-“胖猫事件”舆情时间序列的主题演化研究.pdf" target="_blank">
+                  <div class="project-content">
+                    <h3 class="project-title">性别与经济舆情在时间序列上的主题演化研究</h3>
+                    <p class="project-category">学术项目</p>
+                    <p class="project-description">第30届亚洲媒体信息与传播中心年会</p>
+                  </div>
+                </a>
+              </li>
+
+              <li class="project-item active" data-filter-item data-category="学术项目">
+                <a href="assets/pdf/20240110-政治传播-文旅传播背景下文化广场赋能乡村振兴实践路径探索——基于全国乡村旅游重点村广西丰村的考察.pdf" target="_blank">
+                  <div class="project-content">
+                    <h3 class="project-title">文旅传播背景下文化广场赋能乡村振兴研究</h3>
+                    <p class="project-category">学术项目</p>
+                    <p class="project-description">第30届亚洲媒体信息与传播中心年会</p>
+                  </div>
+                </a>
+              </li>
+
+              <li class="project-item active" data-filter-item data-category="学术项目">
+                <a href="assets/pdf/20231213-理解城市-定福庄社区的社会空间不平等研究.pdf" target="_blank">
+                  <div class="project-content">
+                    <h3 class="project-title">定福庄社区的社会空间不平等研究</h3>
+                    <p class="project-category">学术项目</p>
+                    <p class="project-description">城市社会学研究</p>
+                  </div>
+                </a>
+              </li>
+
+              <li class="project-item active" data-filter-item data-category="学术项目">
+                <a href="assets/pdf/20231124-政治传播-北京城市公共空间与国家形象研究.pdf" target="_blank">
+                  <div class="project-content">
+                    <h3 class="project-title">北京城市公共空间与国家形象研究</h3>
+                    <p class="project-category">学术项目</p>
+                    <p class="project-description">城市空间研究</p>
+                  </div>
+                </a>
+              </li>
+
+              <li class="project-item active" data-filter-item data-category="学术项目">
+                <a href="https://wish2333.github.io/zh/2023/health-information/" target="_blank">
+                  <div class="project-content">
+                    <h3 class="project-title">北京市大学生的UGC平台健康信息采纳研究</h3>
+                    <p class="project-category">学术项目</p>
+                    <p class="project-description">传播学研究</p>
+                  </div>
+                </a>
+              </li>
+
+              <li class="project-item active" data-filter-item data-category="学术项目">
+                <a href="assets/pdf/20230702-世界史通论-黑死病对中世纪欧洲宗教的影响简析.pdf" target="_blank">
+                  <div class="project-content">
+                    <h3 class="project-title">黑死病对中世纪欧洲宗教的影响简析</h3>
+                    <p class="project-category">学术项目</p>
+                    <p class="project-description">世界文明史</p>
+                  </div>
+                </a>
+              </li>
+
+              <li class="project-item active" data-filter-item data-category="学术项目">
+                <a href="assets/pdf/20220830-子牛杯-丰水沃土，“铜” 赴振兴——丰村一二三产融合助力乡村振兴的探索.pdf" target="_blank">
+                  <div class="project-content">
+                    <h3 class="project-title">丰水沃土，"铜"赴振兴——丰村一二三产融合助力乡村振兴的探索</h3>
+                    <p class="project-category">学术项目</p>
+                    <p class="project-description">乡村振兴研究</p>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </section>
+        </article>
+
         <!--
         - #RESUME
       -->
@@ -649,6 +950,79 @@
               </li>
             </ol>
           </section>
+          <!-- 软件开发 -->
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+              <h3 class="h3">软件开发</h3>
+            </div>
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Milo-Cut</h4>
+                <span>2026.05 独立开发<br />"字幕即剪辑"——AI驱动的口播视频粗剪预处理器</span>
+                <p class="timeline-text">
+                  ·
+                  调研口播博主、教培团队等用户群体，发现素材清洗占总创作时间40%+，现有工具流程割裂；<br />
+                  ·
+                  设计三层智能分析引擎和"静音-字幕统一时间轴"核心交互，将视频编辑转化为文本编辑体验，降低非专业用户门槛；支持6种导出格式兼容大部分主流剪辑软件；<br />
+                  ·
+                  2天交付MVP、3天迭代完善功能，通过结构化审计流程系统性保障产品质量。
+                </p>
+              </li>
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">SherpaNote</h4>
+                <span>2026.04 独立开发<br />本地优先的AI学习助手，语音转录、文档提取、AI整理一站式完成</span>
+                <p class="timeline-text">
+                  ·
+                  调研5位同学的日常学习习惯，发现语音转录、文档提取、工具碎片化三大痛点；<br />
+                  ·
+                  独立完成从需求分析、6视图信息架构设计到全栈开发，7个版本迭代均由用户反馈驱动，如同学反馈高质量的离线模型无实时反馈则设计"模拟流式"管线；<br />
+                  ·
+                  设计子进程隔离的插件架构，将docling等重量级依赖按需安装，保持主程序轻量；文档提取决策树根据文件类型自动路由最优引擎；<br />
+                  ·
+                  转录+整理工作流从约4小时压缩至约1小时，被同专业学习小组纳入每周讨论记录和网络资源学习的常规工具。
+                </p>
+              </li>
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">FF Intelligent Neo</h4>
+                <span>2026.03 独立开发 软件著作权（登记号：2024SR1156928）<br />面向非技术用户的FFmpeg批量视频处理桌面工具</span>
+                <p class="timeline-text">
+                  ·
+                  实习期间主动向主管了解视频处理业务需求，发现上千条视频片头更新依赖同事逐条手动操作；明确批处理、滤镜冲突处理、编码器场景化推荐三个核心需求；<br />
+                  ·
+                  MVP验证后基于用户反馈果断重构：单页面升级为多页面架构，新增线程安全任务队列和预设系统；编码器按场景分组推荐，滤镜链自动处理互斥冲突；<br />
+                  ·
+                  6周完成6个版本迭代，批量操作时间压缩约70%，同事将预设模板纳入日常工作流。
+                </p>
+              </li>
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">PyWebVue</h4>
+                <span>2026.03 独立开发<br />极简Python+Vue桌面应用桥接框架，克隆即开发</span>
+                <p class="timeline-text">
+                  ·
+                  从自身作为非科班Python开发者的痛点出发，调研Electron/Tauri/pywebview方案，确定"克隆即开发"产品定位，使用3文件/200行的极简架构；<br />
+                  ·
+                  框架核心解决Windows COM线程安全事件推送、主线程C++扩展初始化等工程问题，新用户从环境配置到运行Demo从1-2小时缩短至5分钟内；<br />
+                  ·
+                  已被SherpaNote、FF-Intelligent-Neo、Milo-Cut三个项目采用为底层框架，验证了"极简优于完备"的设计理念。
+                </p>
+              </li>
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">SocialSimuLLM</h4>
+                <span>2024.12 独立开发 毕业作品<br />大模型驱动的多智能体社会仿真实验框架</span>
+                <p class="timeline-text">
+                  ·
+                  发现原始Generative Agents代码不可复现(无配置管理、无随机种子)、分析依赖手动处理日志；从科研实验需求定义功能优先级，设计6模块解耦架构；<br />
+                  ·
+                  实现Pydantic配置模型+JSONL结构化日志+检查点的完整实验复现链路；开发Streamlit可视化分析界面(热力图、网络图、AI研究助手)，将手动分析时间从数小时缩短至十多分钟；<br />
+                  ·
+                  42个源文件/8,200行代码，支撑毕业论文仿真实验和课题组方法论研究，验证了LLM驱动智能体在中文社交场景下的可行性。
+                </p>
+              </li>
+            </ol>
+          </section>
           <!-- 课外活动 -->
           <section class="timeline">
             <div class="title-wrapper">
@@ -658,29 +1032,6 @@
               <h3 class="h3">课外活动</h3>
             </div>
             <ol class="timeline-list">
-              <li class="timeline-item">
-                <h4 class="h4 timeline-item-title">
-                  基于generative-agent的大模型社会仿真框架（开源）
-                </h4>
-                <span>2025.2 - 2025.3<br />独立开发者 毕业作品</span>
-                <!-- <a class="timeline-text" href="https://github.com/wish2333/VideoExtractAndConcat" style="color:azure">Github链接/wish2333/VideoExtractAndConcat</a> -->
-                <p class="timeline-text">
-                  该项目旨在模拟社交互动和智能体行为，为研究和探索各种社交场景提供可定制的框架。通过模拟，用户可以观察代理之间的交互，分析行为模式，并更深入地了解社会动态。
-                </p>
-              </li>
-              <li class="timeline-item">
-                <h4 class="h4 timeline-item-title">
-                  基于FFmpeg和Python开发的视频批处理软件（开源）
-                </h4>
-                <span
-                  >2024.5 - 2024.6<br />独立开发者
-                  软件著作权（登记号：2024SR1156928）</span
-                >
-                <!-- <a class="timeline-text" href="https://github.com/wish2333/VideoExtractAndConcat" style="color:azure">Github链接/wish2333/VideoExtractAndConcat</a> -->
-                <p class="timeline-text">
-                  该项目旨在简化繁杂的视频编辑流程，赋能每个人都能快速创作出高质量的视频内容。提供素材编码转码、滤镜特效、智能剪辑等功能。
-                </p>
-              </li>
               <li class="timeline-item">
                 <h4 class="h4 timeline-item-title">中国传媒大学ECHO配音社</h4>
                 <span>2021.10-2023.9<br />后期、配音、编导</span>
@@ -800,241 +1151,6 @@
           </section>
         </article>
 
-        <!--#PORTFOLIO-->
-
-        <article class="portfolio" id="section-portfolio" data-page="作品集">
-          <header>
-            <h2 class="h2 article-title">作品集</h2>
-          </header>
-
-          <section class="projects">
-            <ul class="filter-list">
-              <li class="filter-item">
-                <button class="active" data-filter-btn>All</button>
-              </li>
-
-              <li class="filter-item">
-                <button data-filter-btn>学术项目</button>
-              </li>
-
-              <li class="filter-item">
-                <button data-filter-btn>编程开发</button>
-              </li>
-
-              <li class="filter-item">
-                <button data-filter-btn>后期制作</button>
-              </li>
-            </ul>
-
-            <div class="filter-select-box">
-              <button class="filter-select" data-select>
-                <div class="select-value" data-selecct-value>选择分类</div>
-
-                <div class="select-icon">
-                  <ion-icon name="chevron-down"></ion-icon>
-                </div>
-              </button>
-
-              <ul class="select-list">
-                <li class="select-item">
-                  <button data-select-item>All</button>
-                </li>
-
-                <li class="select-item">
-                  <button data-select-item>学术项目</button>
-                </li>
-
-                <li class="select-item">
-                  <button data-select-item>编程开发</button>
-                </li>
-
-                <li class="select-item">
-                  <button data-select-item>后期制作</button>
-                </li>
-              </ul>
-            </div>
-
-            <!-- 网格视图 (卡片+图片，在下) -->
-            <ul class="project-list grid-view" id="project-list-grid">
-              <!-- 编程开发 - 卡片+图片 -->
-              <li class="project-item active" data-filter-item data-category="编程开发">
-                <a href="https://github.com/wish2333/VidExtConcat/" target="_blank">
-                  <figure class="project-img">
-                    <div class="project-item-icon-box">
-                      <ion-icon name="eye-outline"></ion-icon>
-                    </div>
-
-                    <img
-                      src="./assets/images/proj-SSLLM.jpg"
-                      alt="大模型驱动的社会仿真框架"
-                      loading="lazy"
-                    />
-                  </figure>
-
-                  <h3 class="project-title">大模型驱动的社会仿真框架</h3>
-
-                  <p class="project-category">编程开发</p>
-                </a>
-              </li>
-
-              <li class="project-item active" data-filter-item data-category="编程开发">
-                <a href="https://github.com/wish2333/VidExtConcat/" target="_blank">
-                  <figure class="project-img">
-                    <div class="project-item-icon-box">
-                      <ion-icon name="eye-outline"></ion-icon>
-                    </div>
-
-                    <img
-                      src="./assets/images/proj-VEC.jpg"
-                      alt="视频批处理软件"
-                      loading="lazy"
-                    />
-                  </figure>
-
-                  <h3 class="project-title">视频批处理软件</h3>
-
-                  <p class="project-category">编程开发</p>
-                </a>
-              </li>
-
-              <!-- 后期制作 - 卡片+图片 -->
-              <li class="project-item active" data-filter-item data-category="后期制作">
-                <a href="https://wish2333.github.io/zh/2023/webclass-autocut-free/" target="_blank">
-                  <figure class="project-img">
-                    <div class="project-item-icon-box">
-                      <ion-icon name="eye-outline"></ion-icon>
-                    </div>
-
-                    <img
-                      src="./assets/images/proj-WebClass.jpg"
-                      alt="网课剪辑：自动化流程基于免费软件"
-                      loading="lazy"
-                    />
-                  </figure>
-
-                  <h3 class="project-title">网课剪辑：自动化流程基于免费软件</h3>
-
-                  <p class="project-category">后期制作</p>
-                </a>
-              </li>
-            </ul>
-
-            <!-- 列表视图 (纯文字，在上) -->
-            <ul class="project-list list-view" id="project-list-list">
-              <!-- 学术项目 - 纯文字列表 -->
-              <li class="project-item active" data-filter-item data-category="学术项目">
-                <a href="assets/pdf/20251219-Globalization-Essay2-Nation State.pdf" target="_blank">
-                  <div class="project-content">
-                    <h3 class="project-title">超越退却与适应：全球化时代民族国家转型的盲点</h3>
-                    <p class="project-category">学术项目</p>
-                    <p class="project-description">政治经济学</p>
-                  </div>
-                </a>
-              </li>
-
-              <li class="project-item active" data-filter-item data-category="学术项目">
-                <a href="assets/pdf/20251208-Modern Life-Final Paper-Critiquing Technology.pdf" target="_blank">
-                  <div class="project-content">
-                    <h3 class="project-title">批判技术：一个掩盖社会权力关系的意识形态神话</h3>
-                    <p class="project-category">学术项目</p>
-                    <p class="project-description">政治经济学</p>
-                  </div>
-                </a>
-              </li>
-
-              <li class="project-item active" data-filter-item data-category="学术项目">
-                <a href="assets/pdf/20251102-Globalization-Essay1-Revisiting Class.pdf" target="_blank">
-                  <div class="project-content">
-                    <h3 class="project-title">重访阶级：全球化下的不稳定群体与“新阶级”迷思</h3>
-                    <p class="project-category">学术项目</p>
-                    <p class="project-description">政治经济学</p>
-                  </div>
-                </a>
-              </li>
-
-              <li class="project-item active" data-filter-item data-category="学术项目">
-                <a href="assets/pdf/20250618-毕业论文-突破互动边界：大学生群体中新技术创新扩散的大模型社会仿真研究.pdf" target="_blank">
-                  <div class="project-content">
-                    <h3 class="project-title">突破互动边界：大学生群体中新技术创新扩散的大模型社会仿真研究</h3>
-                    <p class="project-category">学术项目</p>
-                    <p class="project-description">毕业论文</p>
-                  </div>
-                </a>
-              </li>
-
-              <li class="project-item active" data-filter-item data-category="学术项目">
-                <a href="assets/pdf/20240601-舆论学-“胖猫事件”舆情时间序列的主题演化研究.pdf" target="_blank">
-                  <div class="project-content">
-                    <h3 class="project-title">性别与经济舆情在时间序列上的主题演化研究</h3>
-                    <p class="project-category">学术项目</p>
-                    <p class="project-description">第30届亚洲媒体信息与传播中心年会</p>
-                  </div>
-                </a>
-              </li>
-
-              <li class="project-item active" data-filter-item data-category="学术项目">
-                <a href="assets/pdf/20240110-政治传播-文旅传播背景下文化广场赋能乡村振兴实践路径探索——基于全国乡村旅游重点村广西丰村的考察.pdf" target="_blank">
-                  <div class="project-content">
-                    <h3 class="project-title">文旅传播背景下文化广场赋能乡村振兴研究</h3>
-                    <p class="project-category">学术项目</p>
-                    <p class="project-description">第30届亚洲媒体信息与传播中心年会</p>
-                  </div>
-                </a>
-              </li>
-
-              <li class="project-item active" data-filter-item data-category="学术项目">
-                <a href="assets/pdf/20231213-理解城市-定福庄社区的社会空间不平等研究.pdf" target="_blank">
-                  <div class="project-content">
-                    <h3 class="project-title">定福庄社区的社会空间不平等研究</h3>
-                    <p class="project-category">学术项目</p>
-                    <p class="project-description">城市社会学研究</p>
-                  </div>
-                </a>
-              </li>
-
-              <li class="project-item active" data-filter-item data-category="学术项目">
-                <a href="assets/pdf/20231124-政治传播-北京城市公共空间与国家形象研究.pdf" target="_blank">
-                  <div class="project-content">
-                    <h3 class="project-title">北京城市公共空间与国家形象研究</h3>
-                    <p class="project-category">学术项目</p>
-                    <p class="project-description">城市空间研究</p>
-                  </div>
-                </a>
-              </li>
-
-              <li class="project-item active" data-filter-item data-category="学术项目">
-                <a href="https://wish2333.github.io/zh/2023/health-information/" target="_blank">
-                  <div class="project-content">
-                    <h3 class="project-title">北京市大学生的UGC平台健康信息采纳研究</h3>
-                    <p class="project-category">学术项目</p>
-                    <p class="project-description">传播学研究</p>
-                  </div>
-                </a>
-              </li>
-
-              <li class="project-item active" data-filter-item data-category="学术项目">
-                <a href="assets/pdf/20230702-世界史通论-黑死病对中世纪欧洲宗教的影响简析.pdf" target="_blank">
-                  <div class="project-content">
-                    <h3 class="project-title">黑死病对中世纪欧洲宗教的影响简析</h3>
-                    <p class="project-category">学术项目</p>
-                    <p class="project-description">世界文明史</p>
-                  </div>
-                </a>
-              </li>
-
-              <li class="project-item active" data-filter-item data-category="学术项目">
-                <a href="assets/pdf/20220830-子牛杯-丰水沃土，“铜” 赴振兴——丰村一二三产融合助力乡村振兴的探索.pdf" target="_blank">
-                  <div class="project-content">
-                    <h3 class="project-title">丰水沃土，"铜"赴振兴——丰村一二三产融合助力乡村振兴的探索</h3>
-                    <p class="project-category">学术项目</p>
-                    <p class="project-description">乡村振兴研究</p>
-                  </div>
-                </a>
-              </li>
-            </ul>
-          </section>
-        </article>
-
         <!--#BLOG-->
 
         <article class="blog" id="section-links" data-page="相关链接">
@@ -1100,6 +1216,7 @@
             </ul>
           </section>
         </article>
+
       </div>
     </main>
 
